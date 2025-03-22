@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*header {
+    background: #032242;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+*/
+nav {
+    background: #e0810a;
+    padding: 15px 0; /* Aumenta el padding superior e inferior */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+ul li {
+    margin: 15px 0; /* Aumenta el margen entre los elementos de la lista */
+    font-size: 24px; /* Aumenta el tamaño de la fuente de los elementos de la lista */
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Puedes ajustar este padding si deseas más espacio alrededor del texto */
+}
+
+nav a:hover {
+    background: #032242;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #5cb85c;
+}
+header {
+    text-align: center; /* Centra el contenido del encabezado */
+    background: #032242;
+    color: #ffffff;
+}
+
+.logo {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del encabezado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0; /* Elimina márgenes */
+}
+
+header p {
+    margin-top: 10px; /* Ajusta el margen superior para acercar el texto a la imagen */
+    font-size: 18px; /* Ajusta el tamaño de la fuente si es necesario */
+}
+
+/*.logo {
+    width: 300px; /* Ajusta el tamaño según sea necesario
+    height: auto; /* Mantiene la proporción de la imagen
+    display: block; /* Asegura que la imagen esté centrada
+    margin: 0 auto; /* Centra la imagen horizontalmente
+}
+*/
+section {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #35424a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0810a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #032242;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
