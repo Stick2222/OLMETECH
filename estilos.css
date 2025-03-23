@@ -130,3 +130,97 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas por defecto */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.service-item {
+    position: relative; /* Para posicionar el texto sobre la imagen */
+    overflow: hidden; /* Para ocultar cualquier desbordamiento */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.service-image {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen esté centrada */
+}
+
+.service-item h3 {
+    position: absolute; /* Posiciona el texto sobre la imagen */
+    bottom: 10px; /* Espacio desde la parte inferior */
+    left: 10px; /* Espacio desde la izquierda */
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 5px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados para el fondo del texto */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    }
+}
+
+
+#contacto {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #35424a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #35424a;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #5cb85c; /* Cambia el color al pasar el mouse */
+}
