@@ -164,7 +164,15 @@ footer {
     .services-grid {
         grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
     }
+    .social-media {
+        display: block !important; /* Asegura que el contenedor sea visible */
+        position: fixed; /* Mantiene el contenedor fijo en la pantalla */
+        bottom: 20px; /* Ajusta la posición desde el fondo */
+        right: 20px; /* Ajusta la posición desde el lado derecho */
+        z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    }
 }
+
 
 
 #contacto {
